@@ -25,5 +25,3 @@ def get_max():
     
 if __name__== "__main__":
     app.run(debug=True)
-
-# RUNNING THE APP: python -m flask --app flask/quickstart.py run

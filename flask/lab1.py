@@ -12,5 +12,3 @@ def first_func():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-# RUNNING APP OVER WEB: python -m flask --app flask.py run
