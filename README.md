@@ -1,2 +1,4 @@
 ## Architecture-and-application-deployment
- - flask
+ - basic flask apps
+    - get call
+    - get and post calls with args
