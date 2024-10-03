@@ -1,4 +1,6 @@
 ## Architecture-and-application-deployment
- - basic flask apps
-    - get call
-    - get and post calls with args
+##### basic flask apps
+- Lab 1: GET call
+- Lab 2: GET and POST calls with args
+##### docker
+- Lab 3: Build and run docker locally

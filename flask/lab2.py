@@ -2,6 +2,10 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+
 @app.route("/getname", methods = ['GET', 'POST'])
 def get_name():
     data = request.get_json()
@@ -24,4 +28,4 @@ def get_max():
     return str(min(number_1, number_2))
     
 if __name__== "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000,debug=True)
