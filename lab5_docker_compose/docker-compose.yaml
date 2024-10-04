@@ -1,7 +1,7 @@
 services:
   web:
     build: .
-    image: docker_container_lab1
+    image: hrithikjain909/lab5_docker_compose:latest
     ports:
       - "5002:5002"
 

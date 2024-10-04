@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    image: hrithikjain909/lab6_docker_volumes:latest
+    ports:
+      - "5003:5003"
+    volumes:
+      - local_directory:/mounted_directory_in_container
+
+volumes:
+  local_directory:
+
+# docker-compose up --build
