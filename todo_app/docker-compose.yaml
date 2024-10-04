@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: hrithikjain909/todo_app:latest
+    ports:
+      - "5005:5005"
+
+# docker-compose up --build

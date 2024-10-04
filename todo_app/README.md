@@ -1,0 +1,3 @@
+- `docker build . --tag hrithikjain909/todo_app`
+- `docker run -d -p 127.0.0.1:5005:5005 hrithikjain909/todo_app`
+- `docker push hrithikjain909/todo_app`
